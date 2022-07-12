@@ -4,18 +4,27 @@
      Assignment: Cheech's Flexible Pizza Parlor
 */
 
+img {height: 60%; width: 55%;}
+.cheese {height:50%; width: 40%;}
+.logo {width: 20%;height: 25%;}
+
 .menu{
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  background-color: gray;
+  background-color: #50464C;
+
 }
 
 .submenu{
   padding: 15px;
-
 }
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 
 @media (max-width: 568px) {
   .menu {
