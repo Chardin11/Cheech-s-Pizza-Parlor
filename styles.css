@@ -3,3 +3,22 @@
      File Name: styles.css
      Assignment: Cheech's Flexible Pizza Parlor
 */
+
+.menu{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+}
+
+.submenu{
+  padding: 15px;
+
+}
+
+
+@media (max-width: 568px) {
+  .menu {
+    flex-direction: column;
+  }
+}
