@@ -15,7 +15,7 @@ img {height: 60%; width: 55%;}
   display: flex;
   flex-direction: row;
   background-color: #50464C;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .submenu{
@@ -38,7 +38,7 @@ img {height: 60%; width: 55%;}
   float: right;
   display: flex;
   flex-flow: column;
-  border: 2px solid gray;
+  border: 1px solid gray;
   padding: 5px;
 }
 .flex-social {
