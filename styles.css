@@ -3,6 +3,8 @@
      File Name: styles.css
      Assignment: Cheech's Flexible Pizza Parlor
 */
+html {font-family: sans-serif;}
+header {background-color: white;}
 
 img {height: 60%; width: 55%;}
 .cheese {height:50%; width: 40%;}
@@ -13,17 +15,36 @@ img {height: 60%; width: 55%;}
   display: flex;
   flex-direction: row;
   background-color: #50464C;
-
+  border: 2px solid black;
 }
 
 .submenu{
   padding: 15px;
+  color: white;
 }
 
-.flex-container {
+.submenu:hover{
+  background-color: white;
+  color: black;
+}
+
+.flex-container-menu {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+}
+
+.flex-testimonial {
+  float: right;
+  display: flex;
+  flex-flow: column;
+  border: 2px solid gray;
+  padding: 5px;
+}
+.flex-social {
+  float: right;
+  display: flex;
+  flex-flow: column;
 }
 
 @media (max-width: 568px) {

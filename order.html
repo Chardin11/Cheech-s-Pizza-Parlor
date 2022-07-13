@@ -23,5 +23,56 @@
         </ul>
       </nav>
     </header>
+    <h2>Enter Your Selection</h2>
+    <p>Please fill in the form, and we will be delivering your
+    pizza as soon as possible</p>
+    <div class="flex-container-order">
+      <div>
+        <form action="index.html" method="post">
+          <label for="fname">Full Name</label><br>
+          <input type="text" id="fname" name="fname" placeholder="Full Name"><br>
+          <label for="Number">Phone</label><br>
+          <input type="number" id="Number" name="Number" placeholder="Number"><br>
+          <select class="pizzaType" name="pizza">
+            <option value="cheese">Cheese Pizza</option>
+            <option value="pepperoni">Pepperoni Pizza</option>
+            <option value="supreme">Supreme Pizza</option>
+            <option value="chickenbacon">Chicken-Bacon Pizza</option>
+            <option value="meatlover">Meat-Lover Pizza</option>
+            <option value="hawaiian">Hawaiian Pizza</option>
+          </select>
+          <select class="pizzaAmount" name="pizzaAmount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select><br>
+          <input class="submit" type="submit" name="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="flex-testimonial">
+      <div>
+        <img src="stars.png" alt="stars">
+        <p>The pizza was amazing, great service!</p><br>
+        <p>John Baker</p><br>
+        <p>7/11/2022</p>
+      </div>
+    </div>
+    <div class="flex-social">
+      <div>
+        <h3>Check Us Out!</h3>
+        <p>For support or any questions:</p>
+        <p>Email us at</p>
+        <a href="mailto:support@cheechspizza.com">Support@cheechspizza.com</a>
+      </div>
+
+    </div>
   </body>
 </html>
